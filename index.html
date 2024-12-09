@@ -3,11 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style src="src/styles.css"></style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Character Starter</title>
   </head>
   <body>
-    <h1 id="header">DnD Character Starter</h1>
+    <header>
+      <h1>DnD Character Starter</h1>
+    </header>
+    <main>
+      <div class="input-field">
+        <form action="">
+          <input
+            type="text"
+            placeholder="What role do you want to play?"
+            id="create-input"
+          />
+          <input type="submit" value="Create" id="create-button" />
+        </form>
+        <p>eg magic, fighter, healer...</p>
+      </div>
+    </main>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/jade0x">Jade Garafola</a>, is open-sourced on
+      <a href="https://github.com/jade0x/dndcharactergenerator">GitHub</a> and
+      is host on
+      <a href="https://characterstarter.netlify.app/">Netlify</a>
+    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>

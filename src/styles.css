@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/../src/PurpleMapWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "MedievalSharp", cursive;
+}
+
+header {
+  margin: auto;
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+.input-field {
+  padding: 15px 0px 0px 0px;
+  margin: 0px auto;
+}
+
+form {
+  padding: 15px 0px 2px 0px;
+}
+
+#create-input {
+  width: 400px;
+  padding: 12px 10px 5px 2px;
+  vertical-align: middle;
+}
+
+::placeholder {
+  color: darkgray;
+  font-size: 2rem;
+}
+
+#create-button {
+  padding: 5px 15px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+#create-button:focus {
+  background-color: grey;
+}
+
+.input-field p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  font-size: 1rem;
+}
+
+footer a {
+  color: purple;
+  font-weight: 600;
+  text-decoration: none;
+}
