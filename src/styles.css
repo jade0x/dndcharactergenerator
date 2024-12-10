@@ -11,9 +11,16 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("/../src/PurpleMapWallpaper.jpg");
+  height: 100vh;
   background-size: cover;
   background-position: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(35, 17, 2, 0.647),
+      rgba(24, 12, 2, 0.212)
+    ),
+    url("/src/img/MadMage_Expansion_2560x1600_Wallpaper_Template.jpeg");
+  background-repeat: no-repeat;
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
 }
@@ -27,7 +34,9 @@ body {
 main {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 10vh;
+  color: white;
 }
 
 h1,
@@ -41,12 +50,14 @@ h6 {
 
 header {
   margin: auto;
-  padding: 40px 0px 20px 0px;
+  padding: 100px 0px 20px 0px;
   text-align: center;
 }
 
 h1 {
-  font-size: 4.5rem;
+  color: whitesmoke;
+  text-shadow: 5px 5px 1px black;
+  font-size: 5rem;
 }
 
 .input-field {
@@ -65,8 +76,8 @@ form {
 }
 
 ::placeholder {
-  color: darkgray;
-  font-size: 2rem;
+  color: rgb(86, 86, 86);
+  font-size: 1.8rem;
 }
 
 #create-button {
@@ -74,6 +85,12 @@ form {
   font-family: "MedievalSharp", cursive;
   font-size: 2rem;
   vertical-align: middle;
+  background-color: rgb(204, 186, 167);
+}
+
+#create-button:hover {
+  background-color: rgb(147, 133, 118);
+  cursor: pointer;
 }
 
 #create-button:focus {
@@ -93,10 +110,11 @@ footer {
   text-align: center;
   padding: 20px 0px 10px 0px;
   font-size: 1rem;
+  color: rgb(107, 107, 107);
 }
 
 footer a {
-  color: purple;
+  color: rgb(134, 88, 4);
   font-weight: 600;
   text-decoration: none;
 }

@@ -31,6 +31,10 @@ A random character generator for Dungeons & Dragons 5th Edition. This web applic
 - CSS
 - JavaScript
 
+## Credits
+
+Backgroudn Image: [Dungeons & Dragons](https://dnd.wizards.com/media-gallery?category=wallpaper)
+
 ## Contributing
 
 While this project is still in development, feel free to submit issues or suggestions through GitHub.
